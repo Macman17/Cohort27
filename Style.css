@@ -1,0 +1,35 @@
+
+body{
+    background-color: rgba(236, 234, 85, 0.699);
+
+
+}
+h1, h2, h3{color: rgb(30, 16, 233);
+    text-align: center;
+    border: 2px black double;
+    
+
+}
+p{
+    color:rgb(0, 68, 255);
+    text-shadow: 3px 3px 3px gray;
+    border: 2px coral solid;
+}
+
+#MyLife{
+    text-align: center;
+    font-size: x-large;
+    color: coral;
+
+
+    
+    
+}
+.South{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.Roof{
+    font-style: oblique;
+}
