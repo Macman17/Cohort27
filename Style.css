@@ -1,35 +1,77 @@
-
+/*global*/
 body{
-    background-color: rgba(236, 234, 85, 0.699);
+    background-color: rgba(248, 248, 245, 0.89);
 
 
 }
-h1, h2, h3{color: rgb(30, 16, 233);
+h1, h2, h3{color: rgb(57, 118, 250);
     text-align: center;
-    border: 2px black double;
+    text-shadow:3px 3px 3px black;
+    margin-bottom: 10px;
     
 
+}
+h4{
+    color: aliceblue;
+    text-shadow: 3px 3px 3px black;
 }
 p{
-    color:rgb(0, 68, 255);
-    text-shadow: 3px 3px 3px gray;
-    border: 2px coral solid;
+    color:rgb(242, 248, 248);
+    text-shadow: 3px 3px 3px rgb(12, 12, 12);
+    border: 2px rgb(236, 136, 4) solid;
+    height:auto
 }
+/*utilities*/
+/*header*/
+header{
+    background-color:rgba(145, 143, 143, 0.171);
+    height: 30vh;
+    border: 2px black double;
+}
+/*menu*/
+nav{
+    background-color:rgb(6, 79, 189);
+    height: 5vh;
+    text-align: right;
+    word-spacing: 10px;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px black;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    
+    
+}
+nav a:hover{
+    font-weight: bold;
+    color: rgb(1, 5, 5);
+}
+/*main*/
+main{
+    background-color: rgba(6, 79, 189);
+}
+aside{
+    background-color: rgb(252, 138, 8);
 
-#MyLife{
+}
+/*footer*/
+footer{
+      background-color: black;
+}
+#mylife{
     text-align: center;
     font-size: x-large;
-    color: coral;
 
 
     
     
 }
-.South{
+.south{
     font-size: x-large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Roboto', sans-serif;
     text-align: center;
 }
-.Roof{
+.roof{
     font-style: oblique;
 }
